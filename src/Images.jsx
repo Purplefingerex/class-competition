@@ -31,12 +31,12 @@ function displayElement (){
 
     
 }} src={balloon}/>
-            <button onClick={displayElement}>Segít</button>
 
 <img style={{
   display: balloonHeight>500 ? displayBlock : displayNone
   
 }} src={boom}/>
+            <button onClick={displayElement}>Segít</button>
 
 <img className='image2' style={{
   display: balloonHeight>500 ? displayNone : displayBlock
